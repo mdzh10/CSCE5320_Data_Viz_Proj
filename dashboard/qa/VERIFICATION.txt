@@ -1,0 +1,26 @@
+Independent recomputation of the table views of this build (research questions 1, 2, 3, 4, 5, 6), 2026-11-17
+command: node qa/extract_tables.js dashboard.html qa/tables.json && python3 qa/verify.py
+
+PASS RQ1 pooled means, CIs and n (default)
+PASS RQ1 pooled means, CIs and n (filt)
+PASS RQ1 same-people view, years 20-40 (n=51)
+PASS RQ1 within-person change, consecutive anniversaries (default)
+PASS RQ1 within-person change, consecutive anniversaries (filt)
+PASS RQ1 depression screen, share positive and Wilson interval (default)
+PASS RQ1 depression screen, share positive and Wilson interval (filt)
+PASS RQ2 correlations and exception shares with clustered intervals (default)
+PASS RQ2 correlations and exception shares with clustered intervals (filt)
+PASS RQ3 band shares, mean and person-clustered CI (default)
+PASS RQ3 band shares, mean and person-clustered CI (filt)
+PASS RQ5 share positive (Wilson on effective n), clustered SWL means and gap (default, PHQ2 >= 3)
+PASS RQ5 share positive (Wilson on effective n), clustered SWL means and gap (filt, PHQ9 >= 10)
+PASS RQ6 milestones by age, 28 cells (default)
+PASS RQ6 milestones by age, 24 cells (filt)
+PASS RQ4 attrition card: earlier PI by later status (default:attr)
+PASS RQ4 attrition card: earlier SWL by later status (default_attrSWL:attr)
+PASS RQ4 attrition card: earlier PI by later status (filt:attr)
+PASS RQ4 overlap matrix, 55 cells (default)
+PASS RQ4 overlap matrix, 21 cells (filt)
+PASS KPI tiles: people and interviews in the filtered selection
+
+21 of 21 checks passed

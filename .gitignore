@@ -1,0 +1,28 @@
+# Build and tooling
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+dashboard/qa/tables.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+~$*
+
+# Raw NSCISC files: never commit (request them from NSCISC)
+*.sas7bdat
+f1_public*
+f2_public*
+rec_public*
+NSCISC_Public_Data_*/
+*.zip
+
+# Derived tables that carry the original NSCISC record IDs (UniID)
+**/data/persons.csv
+**/data/waves_long.csv
+**/data/cohort_status_long.csv

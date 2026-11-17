@@ -1,0 +1,12 @@
+{
+  "name": "scidash",
+  "version": "1.0.0",
+  "description": "CSCE 5320 Group 2: interactive dashboard on pediatric spinal cord injury outcomes",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "d3": "7.9.0"
+  }
+}
